@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+i{
+    cursor: pointer;
+}
+body{
+    background-color: #F5F6FA;
+}
+
+.side-menu{
+    height: 100vh;
+    /* overflow: hidden !important; */
+    width: 15%;
+    flex-basis: 15%;
+}
+
+.main-menu{
+    height: 100vh;
+    /* overflow: hidden !important; */
+    width: 85%;
+    flex-basis: 85%;
+}
+
+.side-menu-items{
+    height: 95%;
+    width: 90%;
+    margin: 1rem auto 0 auto;
+    background-color: #ffff;
+    border-radius: 7px;
+}
+
+.side-menu ul li{
+    padding: 1rem;
+    width: 200px;
+}
+
+.main-menu-nav{
+    width: 90%;
+    margin: auto;
+}
+
+.img-per{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile{
+    padding-top: 5px;
+}
+
+/* Image carousel */
+.wrapper{
+    max-width: 98%;
+    position: relative;
+    margin-top: 19px;
+}
+
+.wrapper i {
+    height: 46px;
+    width: 46px;
+    text-align: center;
+    line-height: 46px;
+    background-color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    border-radius: 10px;
+}
+
+.wrapper i:hover{
+    background-color: #333;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.wrapper i:first-child{
+    left: 23px;
+}
+.wrapper i:last-child{
+    right: 23px;
+}
+.carousel{
+    white-space: nowrap;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.carousel img{
+    height: 340px;
+    object-fit: cover;
+    width: calc(100%/3);
+    margin-left: 14px;
+    border-radius: 10px;
+}
+
+/* Main Content */
+.location-details{
+    background-color: #fff;
+    border-radius: 5px;
+    max-height: 700px;
+    width: 25%;
+    padding: 18px;
+}
+
+/* Listing Agent */
+.listing-agent{
+    height: 106px;
+    width: 100%;
+    background-color: #F5F6FA;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* property details */
+
+.bg-white{
+    background-color: #fff;
+    width: 95%;
+    height: 88px;
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.property-details i{
+    font-size: 20px;
+}
+
+.key-facts{
+    background-color: #fff;
+    width: 95%;
+    min-height: 88px;
+    margin: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.key-facts h3{
+    padding: 20px;
+}
+
+.key-facts p{
+    line-height: 30px;
+}
+
+.key-line{
+    border-bottom: 1px solid rgba(85, 91, 103, 0.15);
+}
+
+/* Shortcuts */
+.shortcuts{
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.shortcuts h4{
+    width: 250px;
+    margin-top: 10px;
+}
+
+.shortcuts label{
+    margin-top: 10px;
+    width: 20%;
+}
